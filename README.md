@@ -47,7 +47,7 @@ Preprocess model auto-selected: https://tfhub.dev/tensorflow/bert_en_uncased_pre
 
 ### Table of Results
 Original Results:
-| Schema            | kNN-C          | kNN-R         | SVM           | SVR           | per-Schema RNN | per-Schema RNN |
+| Schema            | kNN-C          | kNN-R         | SVM           | SVR           | per-Schema RNN | multilabel RNN |
 | ----------------- |:--------------:|:-------------:|:-------------:|:-------------:|:--------------:|:--------------:|
 | Attach            | 0.55           |0.63           |0.65           |0.68           | 0.73           | 0.69           |
 | Competence        | 0.69           |0.66           |0.68           |0.64           | 0.76           | 0.66           |
@@ -60,7 +60,7 @@ Original Results:
 | Oth. View on Self | 0.45           |0.46           |0.48           |0.52           | 0.58           | 0.50           |
 
 Reproduced Results:
-| Schema            | kNN-C          | kNN-R         | SVM           | SVR           | per-Schema RNN | per-Schema RNN |
+| Schema            | kNN-C          | kNN-R         | SVM           | SVR           | per-Schema RNN | multilabel RNN |
 | ----------------- |:--------------:|:-------------:|:-------------:|:-------------:|:--------------:|:--------------:|
 | Attach            | 0.55           |0.63           |0.65           |0.68           | 0.73           | 0.69           |
 | Competence        | 0.69           |0.66           |0.68           |0.64           | 0.76           | 0.66           |
@@ -74,7 +74,7 @@ Reproduced Results:
 
 
 BERT Results:
-| Schema            | kNN-C          | kNN-R         | SVM           | SVR           | per-Schema RNN | per-Schema RNN |
+| Schema            | kNN-C          | kNN-R         | SVM           | SVR           | per-Schema RNN | multilabel RNN |
 | ----------------- |:--------------:|:-------------:|:-------------:|:-------------:|:--------------:|:--------------:|
 | Attach            | 0.53           |0.53           |0.58           |0.66           | 0.74           | NaN            |
 | Competence        | 0.59           |0.60           |0.69           |0.67           | 0.77           | NaN            |
