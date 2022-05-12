@@ -1,0 +1,4 @@
+# ignore glove file as it is too large
+/Data/glove.6B/glove.6B.100d.txt
+# ignore all .pkl as they are too large as well
+*.pkl

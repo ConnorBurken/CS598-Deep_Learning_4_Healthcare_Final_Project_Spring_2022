@@ -1,10 +1,12 @@
-experiment_name,multilabel_rnn
+,0
+experiment_name,multilabel_rnn_bert
 random_method,uniform_mersenne
 reduction_method,
 reduction_interval,50
 reduction_window,20
 reduction_threshold,0.2
 reduction_metric,val_acc
-complete_time,11/13/20/23:02
-x_shape,"(4151, 25)"
+experiment_id,051122105921
+complete_time,05/11/22/22:02
+x_shape,"(4151, 128, 512)"
 y_shape,"(4151, 9)"
